@@ -12,5 +12,5 @@ def csvdata():
     return jsonify(df.to_dict(orient="files"))  
 
 
-if __name__="__main__":
+if __name__=="__main__":
     app.run(debug=True)
